@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E0798976-388D-41F8-8FC0-974B29B6E936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureFixAgent", "src\SecureFixAgent\SecureFixAgent.csproj", "{5EEE57C8-6C7F-4A72-B145-DD9FCCA64B00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{09B4F959-2480-4CB7-9B2D-767BFE40361B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureFixAgent.Tests", "tests\SecureFixAgent.Tests\SecureFixAgent.Tests.csproj", "{76067FC4-D46D-44B9-B3C3-885AC0536241}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EEE57C8-6C7F-4A72-B145-DD9FCCA64B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EEE57C8-6C7F-4A72-B145-DD9FCCA64B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EEE57C8-6C7F-4A72-B145-DD9FCCA64B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EEE57C8-6C7F-4A72-B145-DD9FCCA64B00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76067FC4-D46D-44B9-B3C3-885AC0536241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76067FC4-D46D-44B9-B3C3-885AC0536241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76067FC4-D46D-44B9-B3C3-885AC0536241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76067FC4-D46D-44B9-B3C3-885AC0536241}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5EEE57C8-6C7F-4A72-B145-DD9FCCA64B00} = {E0798976-388D-41F8-8FC0-974B29B6E936}
+		{76067FC4-D46D-44B9-B3C3-885AC0536241} = {09B4F959-2480-4CB7-9B2D-767BFE40361B}
+	EndGlobalSection
+EndGlobal

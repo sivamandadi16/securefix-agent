@@ -1,0 +1,38 @@
+[
+  {
+    "id": "SF-001",
+    "ruleId": "CWE-89",
+    "title": "SQL Injection: string-concatenated query",
+    "severity": "Critical",
+    "filePath": "UsersRepository.cs",
+    "line": 11,
+    "description": "User input is concatenated directly into a SQL statement, allowing an attacker to alter the query."
+  },
+  {
+    "id": "SF-002",
+    "ruleId": "CWE-798",
+    "title": "Hardcoded password in source code",
+    "severity": "High",
+    "filePath": "AuthConfig.cs",
+    "line": 6,
+    "description": "A database password is embedded in source code, where anyone with repo access can read it."
+  },
+  {
+    "id": "SF-003",
+    "ruleId": "CWE-327",
+    "title": "Use of a broken cryptographic algorithm (MD5)",
+    "severity": "Medium",
+    "filePath": "CryptoHelper.cs",
+    "line": 10,
+    "description": "MD5 is collision-broken and must not be used for integrity or security purposes."
+  },
+  {
+    "id": "SF-004",
+    "ruleId": "CWE-79",
+    "title": "Cross-site scripting: unencoded output",
+    "severity": "High",
+    "filePath": "SearchController.cs",
+    "line": 9,
+    "description": "User-supplied search text is written to the response without HTML encoding."
+  }
+]
